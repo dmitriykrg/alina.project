@@ -44,15 +44,21 @@ width: 100px;
 }
 .post{
     box-sizing: content-box;
+    width: 20%;
     
     overflow: hidden; 
     border: solid;
     margin: 10px;
 }
-.post:hover{
+
+#post:hover:after {
+    content: attr(data-name);
     
     
-}
-.text{
-    opacity: 0;
-}
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+    margin-left: 35%;
+   
+    }

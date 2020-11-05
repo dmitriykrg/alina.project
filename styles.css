@@ -21,14 +21,8 @@ li{
     margin-right: 10px;
     background-color: lightcoral;
 }
-#sear{
 
-width: 100px;
-    
-}
-#name{
-    width: 250px;
-}
+
 .logo{
     background-color: lightcoral;
 }
@@ -38,7 +32,8 @@ width: 100px;
     background-color: navajowhite;
     width: 75%;
     
-    margin-left: 150px;
+    margin-left: auto;
+    
     
 }
 

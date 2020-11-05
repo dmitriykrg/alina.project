@@ -1,18 +1,22 @@
 
 
+
 let wrap= document.querySelector(".wrapper");
 
-let xhr = new XMLHttpRequest();
-xhr.open('GET', 'post.json', false); // либо "file.json"
-xhr.send();
-let file = xhr.responseText || '';
+        function lala (){};
+        () =>{}
+        check => {}
 
-let jsond = JSON.parse(file);
+ fetch("post.json").then(response => response.json()).then(json=>   json.map((item)=>{
+        
+        
+    wrap.innerHTML+='<div class=col><div class=post id = "post" data-name ='+item.name+'><img width=100% src = '+item.src+'></div>'+'</br>';
+
+
+})  
+);
+
+
+
     
-    jsond.map((item)=>{
-        
-        
-        wrap.innerHTML+='<div class=col><div class=post id = "post" data-name ='+item.name+'><img width=100% src = '+item.src+'></div>'+'</br>';
-
-
-    })  
+  

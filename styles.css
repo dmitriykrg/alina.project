@@ -1,36 +1,15 @@
-.nav{
-    
-    background-color: darkblue;
-    display: flex;
-    padding: 5px;
-    
-    
-}
 body{
     margin: 0;
     padding: 0;
     border: 0;
     background-image: url("img/back.jpg");
 }
-ul {
-    list-style: none; 
-    margin: 0 auto;
-  }
-
-li{
-    display: inline;
-    margin-right: 10px;
-    background-color: lightcoral;
-}
 
 
-.logo{
-    background-color: lightcoral;
-}
 .wrapper{
   
    
-    background-color: rgba(240, 230, 140, 0.5);
+    background-color: rgba(252, 252, 252,0.5);
     width: 75%;
     
     margin-left: 150px;
@@ -41,23 +20,34 @@ li{
 
 .post{
     
-    height: 100%;
-    zoom: 0.4;
-    border: solid;
+   
+    
+
     margin: 10px;
     
 }
 .col{
+    width: 200px;
     display: inline-block;
     vertical-align: top;
+    
 }
 
-#post:hover:after {
-    content: attr(data-name);
-    color: black;
-    text-align: center;
-    font-family: cursive;
-    font-size: 48px;
-    margin-left: 35%;
-   
-    }
+.name{
+    margin-left: 30%;
+}
+
+.btnU{
+   background: rgb(0, 255, 51);
+   border: none;
+}
+.btnUN{
+    background: rgb(255, 0, 0);
+    border: none;
+ }
+.lab{
+    cursor: pointer;
+}
+.post img{
+    border-radius: 20px;
+}
